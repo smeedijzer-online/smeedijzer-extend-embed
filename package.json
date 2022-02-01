@@ -1,0 +1,32 @@
+{
+  "name": "smeedijzer-extend-embed",
+  "version": "1.0.0",
+  "description": "Extends embed",
+  "author": "Smeedijzer",
+  "keywords": [
+    "WordPress",
+    "embed",
+    "block",
+    "variation"
+  ],
+  "homepage": "https://github.com/smeedijzer-online/smeedijzer-extend-embed/",
+  "repository": "git+https://github.com/smeedijzer-online/smeedijzer-extend-embed.git",
+  "bugs": {
+    "url": "https://github.com/smeedijzer-online/smeedijzer-extend-embed/issues"
+  },
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^20.0.2",
+    "@wordpress/i18n": "^4.3.0",
+    "@wordpress/dom-ready": "^3.3.0",
+	"@wordpress/blocks": "^11.2.0",
+	"@wordpress/components": "^19.3.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  }
+}
